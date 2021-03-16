@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ApexProject/static/css/main.66361f02.chunk.css",
+    "main.js": "/ApexProject/static/js/main.b4996799.chunk.js",
+    "main.js.map": "/ApexProject/static/js/main.b4996799.chunk.js.map",
+    "runtime-main.js": "/ApexProject/static/js/runtime-main.619fe896.js",
+    "runtime-main.js.map": "/ApexProject/static/js/runtime-main.619fe896.js.map",
+    "static/js/2.1e171d85.chunk.js": "/ApexProject/static/js/2.1e171d85.chunk.js",
+    "static/js/2.1e171d85.chunk.js.map": "/ApexProject/static/js/2.1e171d85.chunk.js.map",
+    "static/js/3.84619d29.chunk.js": "/ApexProject/static/js/3.84619d29.chunk.js",
+    "static/js/3.84619d29.chunk.js.map": "/ApexProject/static/js/3.84619d29.chunk.js.map",
+    "index.html": "/ApexProject/index.html",
+    "static/css/main.66361f02.chunk.css.map": "/ApexProject/static/css/main.66361f02.chunk.css.map",
+    "static/js/2.1e171d85.chunk.js.LICENSE.txt": "/ApexProject/static/js/2.1e171d85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.619fe896.js",
+    "static/js/2.1e171d85.chunk.js",
+    "static/css/main.66361f02.chunk.css",
+    "static/js/main.b4996799.chunk.js"
+  ]
+}
