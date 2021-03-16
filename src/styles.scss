@@ -1,0 +1,1823 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+* {
+  box-sizing: border-box;
+}
+html, body{min-height:100%;}
+
+body {
+  height: 100vh;
+  background: 100%;
+  background: rgb(56, 68 , 85);
+  overflow: hidden;
+}
+.border-1px-link-water {
+  border: 1px solid var(--link-water);
+}
+.border-2px-link-water {
+  border: 2px solid var(--link-water);
+}
+.nunitosans-bold-caribbean-green-12px {
+  color: var(--caribbean-green);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-carnation-12px {
+  color: var(--carnation);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-link-water-12px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-link-water-16px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-link-water-24px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-link-water-30px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 30px;
+}
+.nunitosans-bold-link-water-50px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-bold-silver-12px {
+  color: var(--silver);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nunitosans-normal-link-water-14px {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.nunitosans-normal-silver-12px {
+  color: var(--silver);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.vue-apex-dark-standalone {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.vue-apex-dark-standalone .all-traffic {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 74px;
+  min-height: 90px;
+  position: absolute;
+  top: 420px;
+  width: 94px;
+}
+.vue-apex-dark-standalone .all-traffic-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .all-traffic-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 10px;
+  min-width: 63px;
+}
+.vue-apex-dark-standalone .background {
+  height: 100vh;
+  left: 56px;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+}
+.vue-apex-dark-standalone .bounce-rate {
+  left: 53px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .brandmetrics {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  min-width: 24px;
+}
+.vue-apex-dark-standalone .chart {
+  height: 280px;
+  left: 6px;
+  position: absolute;
+  top: 2px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .chart-1 {
+  height: 206px;
+  left: 6px;
+  position: absolute;
+  top: 2px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .chart-2 {
+  height: 254px;
+  left: 6px;
+  position: absolute;
+  top: 2px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .chart-3 {
+  height: 238px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .clasa2aint {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 118px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .clasa2aint:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .class2aint {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 338px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .class2aint:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .class2apct {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 778px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .class2apct-1 {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 998px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .class2apct-1:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .class2apct-2 {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 1218px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .class2apct-2:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .class2apct:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .class2ass {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 558px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+.vue-apex-dark-standalone .class2ass:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .converted {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .cpc {
+  left: 84px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .custom {
+  align-items: center;
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.161);
+  display: flex;
+  height: 36px;
+  left: 118px;
+  min-width: 44px;
+  padding: 0 10px;
+  position: absolute;
+  top: 68px;
+}
+.vue-apex-dark-standalone .days-left-326 {
+  color: var(--caribbean-green);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 189px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .days-left-50 {
+  color: var(--caribbean-green);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  left: 273px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .demo-request-p1 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .direct {
+  color: var(--gallery);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .direct-18 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .direct-traffic {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 216px;
+  min-height: 90px;
+  position: absolute;
+  top: 420px;
+  width: 80px;
+}
+.vue-apex-dark-standalone .discovery {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .ellipse-4 {
+  border-radius: 6.389586448669434px;
+  height: 15px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 15px;
+}
+.vue-apex-dark-standalone .ellipse-5 {
+  background-color: var(--link-water);
+  border-radius: 2.48862624168396px;
+  height: 6px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+.vue-apex-dark-standalone .fade-line1 {
+  align-items: flex-start;
+  display: flex;
+  height: 280px;
+  left: 0px;
+  min-width: 702px;
+  position: absolute;
+  top: 0px;
+}
+.vue-apex-dark-standalone .fade-line1-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 206px;
+  left: 0px;
+  min-width: 702px;
+  position: absolute;
+  top: 75px;
+}
+.vue-apex-dark-standalone .fade-line1-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 254px;
+  left: 0px;
+  min-width: 702px;
+  position: absolute;
+  top: 26px;
+}
+.vue-apex-dark-standalone .fade-line1-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 238px;
+  left: 1px;
+  min-width: 701px;
+  position: absolute;
+  top: 42px;
+}
+.vue-apex-dark-standalone .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -17.5px;
+  min-height: 75px;
+  width: 62px;
+}
+.vue-apex-dark-standalone .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -17.5px;
+  margin-left: 18px;
+  min-height: 75px;
+  width: 62px;
+}
+.vue-apex-dark-standalone .flex-col-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  width: 202px;
+}
+.vue-apex-dark-standalone .flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  width: 144px;
+}
+.vue-apex-dark-standalone .flex-col-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  width: 107px;
+}
+.vue-apex-dark-standalone .flex-col-5 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  width: 55px;
+}
+.vue-apex-dark-standalone .flex-col-6 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  width: 58px;
+}
+.vue-apex-dark-standalone .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-top: 56px;
+  min-width: 98px;
+}
+.vue-apex-dark-standalone .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-left: 10px;
+  margin-top: 12px;
+  min-width: 108px;
+}
+.vue-apex-dark-standalone .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-right: 8px;
+  margin-top: 12px;
+  min-width: 90px;
+}
+.vue-apex-dark-standalone .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-left: 3px;
+  margin-top: 12px;
+  min-width: 101px;
+}
+.vue-apex-dark-standalone .flex-row-4 {
+  align-items: center;
+  display: flex;
+  margin-right: 7px;
+  margin-top: 12px;
+  min-width: 91px;
+}
+.vue-apex-dark-standalone .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 21px;
+  min-width: 335px;
+}
+.vue-apex-dark-standalone .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  margin-left: 0.5px;
+  min-width: 342px;
+}
+.vue-apex-dark-standalone .group-1 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  left: 81px;
+  min-width: 40px;
+  position: absolute;
+  top: 52px;
+}
+.vue-apex-dark-standalone .group-1-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 199px;
+  min-width: 72px;
+}
+.vue-apex-dark-standalone .group-10 {
+  align-items: flex-start;
+  display: flex;
+  height: 8px;
+  justify-content: flex-end;
+  min-width: 8px;
+}
+.vue-apex-dark-standalone .group-11 {
+  align-items: flex-start;
+  display: flex;
+  height: 21px;
+  justify-content: center;
+  left: 0px;
+  min-width: 24px;
+  position: absolute;
+  top: 0px;
+}
+.vue-apex-dark-standalone .group-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 43px;
+  min-height: 46px;
+  position: absolute;
+  top: 115px;
+  width: 335px;
+}
+.vue-apex-dark-standalone .group-22-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 41px;
+  min-height: 45px;
+  position: absolute;
+  top: 54px;
+  width: 343px;
+}
+.vue-apex-dark-standalone .group-23 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 42px;
+  min-width: 334px;
+  position: absolute;
+  top: 177px;
+}
+.vue-apex-dark-standalone .group-23-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 45px;
+  left: 41px;
+  min-width: 340px;
+  position: absolute;
+  top: 119px;
+}
+.vue-apex-dark-standalone .group-24 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 42px;
+  min-width: 334px;
+  position: absolute;
+  top: 239px;
+}
+.vue-apex-dark-standalone .group-25 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 42px;
+  min-width: 334px;
+  position: absolute;
+  top: 301px;
+}
+.vue-apex-dark-standalone .group-26 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 42px;
+  min-width: 334px;
+  position: absolute;
+  top: 362px;
+}
+.vue-apex-dark-standalone .group-27 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 42px;
+  min-width: 334px;
+  position: absolute;
+  top: 424px;
+}
+.vue-apex-dark-standalone .group-28 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 61px;
+  min-width: 72px;
+}
+.vue-apex-dark-standalone .group-29 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 112px;
+  min-width: 79px;
+}
+.vue-apex-dark-standalone .group-3 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  left: 78px;
+  min-width: 43px;
+  position: absolute;
+  top: 52px;
+}
+.vue-apex-dark-standalone .group-30 {
+  margin-left: 149px;
+}
+.vue-apex-dark-standalone .group-31 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 209px;
+  margin-top: 0.24px;
+  min-width: 71px;
+}
+.vue-apex-dark-standalone .group-32 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 213px;
+  min-width: 64px;
+}
+.vue-apex-dark-standalone .group-33 {
+  align-items: flex-end;
+  display: flex;
+  height: 58px;
+  left: 0px;
+  min-width: 142px;
+  position: absolute;
+  top: 13px;
+}
+.vue-apex-dark-standalone .group-4 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  left: 74px;
+  min-width: 54px;
+  position: absolute;
+  top: 52px;
+}
+.vue-apex-dark-standalone .group-5 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  left: 74px;
+  min-width: 45px;
+  position: absolute;
+  top: 52px;
+}
+.vue-apex-dark-standalone .group-6 {
+  left: unset;
+  margin-right: 4px;
+  position: unset;
+  top: unset;
+}
+.vue-apex-dark-standalone .group-7 {
+  left: unset;
+  margin-left: 8px;
+  position: unset;
+  top: unset;
+}
+.vue-apex-dark-standalone .last-28-days {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 20px;
+  left: 182px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 82px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .lead-record-types {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 540px;
+  left: 1438px;
+  pointer-events: auto;
+  position: absolute;
+  top: 114px;
+  transition: all 0.2s ease;
+  width: 420px;
+}
+.vue-apex-dark-standalone .lead-record-types-1 {
+  left: 141px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .lead-record-types:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .leadsmetrics {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  min-width: 24px;
+}
+.vue-apex-dark-standalone .line {
+  height: 255px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 709px;
+}
+.vue-apex-dark-standalone .line- {
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 52px;
+}
+.vue-apex-dark-standalone .line-1 {
+  height: 155px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 709px;
+}
+.vue-apex-dark-standalone .line-10 {
+  height: 2px;
+  left: 8px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+.vue-apex-dark-standalone .line-11 {
+  height: 6px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+.vue-apex-dark-standalone .line-12 {
+  height: 9px;
+  left: 10px;
+  position: absolute;
+  top: 6px;
+  width: 13px;
+}
+.vue-apex-dark-standalone .line-13 {
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 38px;
+}
+.vue-apex-dark-standalone .line-2 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 248px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .line-3 {
+  height: 167px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 707px;
+}
+.vue-apex-dark-standalone .line-4 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 158px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .line-5 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 67px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .line-6 {
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 76px;
+  width: 700px;
+}
+.vue-apex-dark-standalone .line-7 {
+  height: 103px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 707px;
+}
+.vue-apex-dark-standalone .line-8 {
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 24px;
+}
+.vue-apex-dark-standalone .line-9 {
+  height: 2px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+.vue-apex-dark-standalone .menu2 {
+  align-items: flex-end;
+  background-color: var(--black-pearl);
+  display: flex;
+  height: 48px;
+  margin-top: 22px;
+  min-width: 56px;
+  padding: 12.8px 16px;
+}
+.vue-apex-dark-standalone .menu3 {
+  align-items: flex-end;
+  background-color: var(--black-pearl);
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  min-width: 56px;
+  padding: 12px 16px;
+}
+.vue-apex-dark-standalone .menu4 {
+  align-items: flex-end;
+  background-color: var(--black-pearl);
+  display: flex;
+  height: 48px;
+  min-width: 56px;
+  padding: 12px 16px;
+}
+.vue-apex-dark-standalone .menu5 {
+  align-items: flex-start;
+  background-color: var(--black-pearl);
+  display: flex;
+  height: 48px;
+  min-width: 56px;
+  padding: 12px 17.3px;
+}
+.vue-apex-dark-standalone .menu6 {
+  align-items: center;
+  background-color: var(--black-pearl);
+  display: flex;
+  height: 48px;
+  min-width: 56px;
+  padding: 0 16px;
+}
+.vue-apex-dark-standalone .menumover-24px {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 24px;
+  min-width: 24px;
+  padding: 0 6px;
+}
+.vue-apex-dark-standalone .modenight-24px {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 24px;
+  margin-left: 10px;
+  min-width: 24px;
+  padding: 0 4.5px;
+}
+.vue-apex-dark-standalone .nav-menu {
+  align-items: flex-start;
+  display: flex;
+  left: 0px;
+  min-width: 204px;
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+}
+.vue-apex-dark-standalone .new {
+  left: 18px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .number {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  min-height: 18px;
+  min-width: 24px;
+  text-align: right;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .number-1 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  min-height: 18px;
+  min-width: 24px;
+  text-align: right;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .number-2 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  min-height: 18px;
+  min-width: 16px;
+  text-align: right;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .number-3 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  min-height: 18px;
+  min-width: 16px;
+  text-align: right;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .nurture-p2 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .organic-42 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .our-targets {
+  left: 167px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .overlap-group {
+  height: 941px;
+  position: relative;
+  width: 1920px;
+}
+.vue-apex-dark-standalone .overlap-group1 {
+  height: 280px;
+  // left: 78px;
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  padding-right: 25px;
+}
+.vue-apex-dark-standalone .overlap-group1-1 {
+  align-self: flex-start;
+  height: 200px;
+  margin-top: 40px;
+  position: relative;
+  width: 200px;
+  margin-left: 80px;
+}
+.vue-apex-dark-standalone .overlap-group1-2 {
+  height: 25px;
+  margin-top: -0px;
+  position: relative;
+  width: 26px;
+}
+.vue-apex-dark-standalone .overlap-group1-3 {
+  height: 21px;
+  position: relative;
+  width: 24px;
+}
+.vue-apex-dark-standalone .overlap-group1-4 {
+  background-size: 100% 100%;
+  height: 26px;
+  margin-top: -1px;
+  position: relative;
+  width: 26px;
+}
+.vue-apex-dark-standalone .overlap-group1-5 {
+  background-size: 100% 100%;
+  height: 26px;
+  margin-left: -1px;
+  margin-top: -1.03px;
+  position: relative;
+  width: 23px;
+}
+.vue-apex-dark-standalone .overlap-group1-6 {
+  align-items: flex-start;
+  background-color: rgba(5, 15, 30, 1);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  display: flex;
+  margin-top: 5px;
+  min-width: 338px;
+  padding: 0 0.7px;
+}
+.vue-apex-dark-standalone .overlap-group10 {
+  height: 71px;
+  left: 30px;
+  position: absolute;
+  top: 88px;
+  width: 142px;
+}
+.vue-apex-dark-standalone .overlap-group11 {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: -9px;
+  min-height: 558px;
+  position: relative;
+  top: -6px;
+  width: 438px;
+}
+.vue-apex-dark-standalone .overlap-group12 {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 22.5px 0;
+  width: 56px;
+  height: 100%;
+}
+.vue-apex-dark-standalone .overlap-group2 {
+  height: 90px;
+  left: 471px;
+  position: absolute;
+  top: 420px;
+  width: 81px;
+}
+.vue-apex-dark-standalone .overlap-group2-1 {
+  height: 18px;
+  margin-bottom: -5px;
+  position: relative;
+  width: 63px;
+}
+.vue-apex-dark-standalone .overlap-group2-2 {
+  align-items: flex-end;
+  background-size: 100% 100%;
+  display: flex;
+  height: 22px;
+  justify-content: flex-end;
+  margin-top: -1px;
+  min-width: 26px;
+  padding: 0 9.1px;
+}
+.vue-apex-dark-standalone .overlap-group2-3 {
+  height: 54px;
+  margin-bottom: -12px;
+  margin-left: -8px;
+  position: relative;
+  width: 355px;
+}
+.vue-apex-dark-standalone .overlap-group3 {
+  height: 90px;
+  left: 599px;
+  position: absolute;
+  top: 420px;
+  width: 67px;
+}
+.vue-apex-dark-standalone .overlap-group3-1 {
+  height: 10px;
+  margin-top: -1.01px;
+  position: relative;
+  width: 10px;
+}
+.vue-apex-dark-standalone .overlap-group4 {
+  height: 90px;
+  left: 343px;
+  position: absolute;
+  top: 420px;
+  width: 81px;
+}
+.vue-apex-dark-standalone .overlap-group5 {
+  height: 90px;
+  left: 713px;
+  position: absolute;
+  top: 420px;
+  width: 67px;
+}
+.vue-apex-dark-standalone .overlap-group6 {
+  height: 21px;
+  position: relative;
+  width: 61px;
+}
+.vue-apex-dark-standalone .overlap-group6-1 {
+  height: 282px;
+  margin-left: -3px;
+  margin-top: -1.67px;
+  position: relative;
+  width: 709px;
+}
+.vue-apex-dark-standalone .overlap-group7 {
+  height: 208px;
+  margin-left: -3px;
+  margin-top: -1.9px;
+  position: relative;
+  width: 709px;
+}
+.vue-apex-dark-standalone .overlap-group8 {
+  height: 256px;
+  margin-left: -3px;
+  margin-top: -2px;
+  position: relative;
+  width: 707px;
+}
+.vue-apex-dark-standalone .overlap-group9 {
+  height: 241px;
+  margin-left: -3px;
+  margin-top: -2.5px;
+  position: relative;
+  width: 707px;
+}
+.vue-apex-dark-standalone .paid-34 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 62px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .path-1 {
+  height: 10px;
+  left: 0px;
+  position: absolute;
+  top: 11px;
+  width: 26px;
+}
+.vue-apex-dark-standalone .path-2 {
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+.vue-apex-dark-standalone .path-2445 {
+  height: 22px;
+  width: 20px;
+}
+.vue-apex-dark-standalone .path-2447 {
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 0px;
+}
+.vue-apex-dark-standalone .path-2459 {
+  height: 12px;
+  width: 12px;
+}
+.vue-apex-dark-standalone .path-2474 {
+  height: 10px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 10px;
+}
+.vue-apex-dark-standalone .path-2476 {
+  height: 11px;
+  margin-bottom: 0.04px;
+  margin-left: -1px;
+  width: 7px;
+}
+.vue-apex-dark-standalone .path-2477 {
+  height: 18px;
+  margin-bottom: 0.04px;
+  margin-left: 2px;
+  width: 7px;
+}
+.vue-apex-dark-standalone .path-2478 {
+  align-self: flex-start;
+  height: 25px;
+  margin-left: 2px;
+  margin-top: -1px;
+  width: 7px;
+}
+.vue-apex-dark-standalone .path-2480 {
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 13px;
+}
+.vue-apex-dark-standalone .path-2492 {
+  height: 10px;
+  width: 20px;
+}
+.vue-apex-dark-standalone .path-2495 {
+  height: 20px;
+  width: 15px;
+}
+.vue-apex-dark-standalone .path-2496 {
+  height: 37px;
+  left: 0px;
+  position: absolute;
+  top: 17px;
+  width: 355px;
+}
+.vue-apex-dark-standalone .path-3 {
+  height: 10px;
+  left: 0px;
+  position: absolute;
+  top: 15px;
+  width: 26px;
+}
+.vue-apex-dark-standalone .percent {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 70px;
+  left: 42px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-1 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 21px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-2 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-top: 16px;
+  min-height: 43px;
+  min-width: 62px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-3 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 21px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-4 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 28px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-5 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -4.56px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 21px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .percent-6 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -4.9px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 28px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .pie-chart-dark {
+  height: 200px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 200px;
+}
+.vue-apex-dark-standalone .polygon-82 {
+  align-self: center;
+  height: 8px;
+  margin-bottom: 0.44px;
+  margin-left: 8px;
+  width: 9px;
+}
+.vue-apex-dark-standalone .polygon-82-1 {
+  height: 8px;
+  width: 9px;
+}
+.vue-apex-dark-standalone .polygon-82-2 {
+  align-self: center;
+  height: 8px;
+  margin-left: 8px;
+  width: 9px;
+}
+.vue-apex-dark-standalone .polygon-82-3 {
+  align-self: center;
+  height: 8px;
+  margin-bottom: 0.1px;
+  margin-left: 8px;
+  width: 9px;
+}
+.vue-apex-dark-standalone .price {
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .productstrategy {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  min-width: 21px;
+}
+.vue-apex-dark-standalone .quarterly-target {
+  left: 9px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .rectangle-10 {
+  background-color: var(--purple-heart);
+  border-radius: 12px;
+  height: 18px;
+  width: 18px;
+}
+.vue-apex-dark-standalone .rectangle-11 {
+  background-color: rgba(255, 41, 162, 1);
+  border-radius: 12px;
+  height: 18px;
+  width: 18px;
+}
+.vue-apex-dark-standalone .rectangle-117 {
+  background-color: var(--blueberry);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 335px;
+}
+.vue-apex-dark-standalone .rectangle-117-1 {
+  background: linear-gradient(90deg, #3eb4e7 0%, #00e6a0 191.65%);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  width: 123px;
+}
+.vue-apex-dark-standalone .rectangle-119 {
+  background-color: rgba(62, 180, 231, 1);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 202px;
+}
+.vue-apex-dark-standalone .rectangle-119-1 {
+  background-color: var(--purple-heart);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 144px;
+}
+.vue-apex-dark-standalone .rectangle-119-2 {
+  background-color: rgba(255, 41, 162, 1);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 79px;
+}
+.vue-apex-dark-standalone .rectangle-119-3 {
+  background-color: var(--neon-carrot);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 46px;
+}
+.vue-apex-dark-standalone .rectangle-119-4 {
+  background-color: var(--caribbean-green);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  margin-left: 0.15px;
+  margin-top: 5px;
+  width: 37px;
+}
+.vue-apex-dark-standalone .rectangle-119-5 {
+  background: linear-gradient(-90deg, #6510e8 -24.42%, #3eb4e7 100%);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 19px;
+  left: 9px;
+  position: absolute;
+  top: 23px;
+  width: 297px;
+}
+.vue-apex-dark-standalone .rectangle-12 {
+  background-color: rgba(6, 188, 193, 1);
+  border-radius: 12px;
+  height: 18px;
+  width: 18px;
+}
+.vue-apex-dark-standalone .rectangle-8 {
+  background-color: var(--blueberry);
+  border-radius: 12px;
+  height: 18px;
+  width: 18px;
+}
+.vue-apex-dark-standalone .rectangle-9 {
+  background-color: var(--neon-carrot);
+  border-radius: 12px;
+  height: 18px;
+  width: 18px;
+}
+.vue-apex-dark-standalone .referral {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .referral-4 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 73px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .referral-traffic {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1px;
+  min-height: 90px;
+  position: absolute;
+  top: 0px;
+  width: 66px;
+}
+.vue-apex-dark-standalone .returning {
+  left: 87px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .site-speed-sec {
+  left: 41px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .social {
+  color: rgba(49, 57, 60, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 12px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .social-2 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .span {
+  color: rgba(188, 191, 193, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span-1 {
+  color: rgba(0, 230, 160, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span0 {
+  color: rgba(223, 232, 251, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span0-1 {
+  color: rgba(223, 232, 251, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span1 {
+  color: rgba(223, 232, 251, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span1-1 {
+  color: rgba(223, 232, 251, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .span2 {
+  color: rgba(49, 57, 60, 1);
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+}
+.vue-apex-dark-standalone .stack-icon-gradient {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.1px;
+  min-width: 26px;
+}
+.vue-apex-dark-standalone .subscriber-leads {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .surname {
+  left: 46px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .targets {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 200px;
+  left: 1438px;
+  pointer-events: auto;
+  position: absolute;
+  top: 674px;
+  transition: all 0.2s ease;
+  width: 420px;
+}
+.vue-apex-dark-standalone .targets:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .text-1 {
+  color: var(--gallery);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-top: 17px;
+  min-height: 34px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-1-1 {
+  left: 49px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-12 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-13 {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 24px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-15 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 24px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-16 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 35px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-18 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  min-height: 18px;
+  min-width: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-19 {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 58px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  position: absolute;
+  top: 94px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-2 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .text-8 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .toggle-night {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  left: 1790px;
+  min-width: 58px;
+  position: absolute;
+  top: 70px;
+}
+.vue-apex-dark-standalone .total-leads {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  min-width: 63px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .traffic-detail {
+  height: 540px;
+  left: 118px;
+  pointer-events: auto;
+  position: absolute;
+  top: 114px;
+  transition: all 0.2s ease;
+  width: 420px;
+}
+.vue-apex-dark-standalone .traffic-detail-1 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 2px;
+  min-height: 24px;
+  min-width: 96px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .traffic-detail:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .traffic-trends {
+  background-color: var(--tuna);
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 540px;
+  left: 558px;
+  pointer-events: auto;
+  position: absolute;
+  top: 114px;
+  transition: all 0.2s ease;
+  width: 860px;
+}
+.vue-apex-dark-standalone .traffic-trends-1 {
+  left: 380px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .traffic-trends:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.vue-apex-dark-standalone .unique-visitors {
+  left: 44px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .visitors {
+  left: 72px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .web-metrics {
+  color: var(--link-water);
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 26.5px;
+  min-height: 29px;
+  white-space: nowrap;
+}
+.vue-apex-dark-standalone .websitemetrics {
+  align-items: flex-start;
+  display: flex;
+  min-width: 24px;
+}
+.vue-apex-dark-standalone .x-24px {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 24px;
+  min-width: 24px;
+  padding: 0 2px;
+}
+.vue-apex-dark-standalone .x-traffic {
+  left: 1px;
+  top: 0px;
+}
+.vue-apex-dark-standalone .yearly-target {
+  letter-spacing: 0px;
+  line-height: 10px;
+  min-height: 18px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+:root {
+  --black-pearl: rgba(6, 21, 43, 1);
+  --blueberry: rgba(83, 139, 240, 1);
+  --caribbean-green: rgba(0, 230, 160, 1);
+  --carnation: rgba(239, 92, 92, 1);
+  --gallery: rgba(239, 239, 239, 1);
+  --link-water: rgba(223, 232, 251, 1);
+  --neon-carrot: rgba(255, 161, 50, 1);
+  --purple-heart: rgba(101, 16, 232, 1);
+  --silver: rgba(188, 191, 193, 1);
+  --tuna: rgba(43, 52, 65, 1);
+}
