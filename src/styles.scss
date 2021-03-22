@@ -11,7 +11,7 @@ body {
   height: 100vh;
   background: 100%;
   background: rgb(56, 68 , 85);
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .border-1px-link-water {
   border: 1px solid var(--link-water);
